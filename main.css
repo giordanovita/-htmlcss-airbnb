@@ -1,0 +1,65 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+
+.conteiner{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  border: 10px solid black;
+  border-radius: 20px;
+  opacity: 0.8;
+
+}
+
+
+
+.conteined{
+  width: auto;
+  height: auto;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 3px 5px 2px #474747;
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.conteined:hover{
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: lightgrey;
+
+}
+
+.city{
+  display: block;
+  font-size: 80px;
+}
+
+#venezia{
+  background-image: url(img/Sfondo-venezia-hd.jpg);
+
+
+}
+
+#palermo{
+  background-image: url(img/b57a4ec8361f085d2b8a1e0411205476.jpg);
+
+}
+
+#firenze{
+  background-image: url(img/thumb-1920-687376.jpg);
+  
+}
