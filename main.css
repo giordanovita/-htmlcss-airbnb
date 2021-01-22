@@ -6,7 +6,7 @@
   font-family: 'Dancing Script', cursive;
 }
 
-
+/* regole main, corpo della pagina */
 
 .conteiner{
   width: 100%;
@@ -48,6 +48,8 @@
   font-size: 80px;
 }
 
+/* sfondi delle singole città */
+
 #venezia{
   background-image: url(img/Sfondo-venezia-hd.jpg);
 
@@ -61,5 +63,5 @@
 
 #firenze{
   background-image: url(img/thumb-1920-687376.jpg);
-  
+
 }
