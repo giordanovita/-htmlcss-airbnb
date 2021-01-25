@@ -34,6 +34,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  
+
 
 }
 
@@ -41,12 +43,15 @@
   border: 3px solid white;
   border-radius: 20px;
   background-color: lightgrey;
+  opacity: 0.8;
 
 }
 
 .city{
   display: block;
   font-size: 80px;
+
+
 }
 
 /* sfondi delle singole città */
